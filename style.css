@@ -18,12 +18,12 @@ body {
 footer {
     font-family: 'Raleway', sans-serif;
     text-align: center;
-    background-color: #F1F2F2;
+    background-color: #D51B1B;
     font-size: 0.8rem;
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
     padding-left: 0.5rem;
-    color: black;
+    color: white;
     position: fixed;
     left: 0;
     bottom: 0;
@@ -330,37 +330,37 @@ header {
         padding: 0.6rem;
     }
 
-    #postmodernisme .resultat_knap {
-        background-color: palevioletred;
+    #swissstyle .resultat_knap {
+        background-color: #F86868;
     }
 
     #video .resultat_knap {
-        background-color: #3a80af;
+        background-color: #83AEE4;
     }
 
     #redesign .resultat_knap {
-        background-color: #2c2c2c;
+        background-color: #97B782;
     }
 
-    #bibliotekaren .resultat_knap {
-        background-color: #20995a;
+    #lost .resultat_knap {
+        background-color: #413A62;
     }
 
     #sexogsamfund .resultat_knap {
-        background-color: #e4912e;
+        background-color: #EEB690;
     }
 
     #prototype .resultat_knap {
-        background-color: #ef928a;
+        background-color: #A88479;
     }
 
     #prototype .resultat_knap_2 {
-        background-color: #ea847c;
+        background-color: #918E7D;
         margin-top: 1rem;
     }
 
     #prototype .resultat_knap_3 {
-        background-color: #6a596b;
+        background-color: #384F42;
         margin-top: 1rem;
     }
 
@@ -375,8 +375,8 @@ header {
         margin-top: 1rem;
     }
 
-    #postmodernisme .dokumentation_knap {
-        background-color: #e391b1;
+    #swissstyle .dokumentation_knap {
+        background-color: #626161;
     }
 
     #redesign .dokumentation_knap {
@@ -384,15 +384,15 @@ header {
     }
 
     #prototype .dokumentation_knap {
-        background-color: #4e4150;
+        background-color: #626161;
     }
 
-    #bibliotekaren .dokumentation_knap {
-        background-color: #2d877d;
+    #lost .dokumentation_knap {
+        background-color: #626161;
     }
 
     #sexogsamfund .dokumentation_knap {
-        background-color: #d7721b;
+        background-color: #626161;
     }
 
     /****baggrundsfladerne**/
@@ -408,22 +408,22 @@ header {
     }
 
     #swissstyle {
-        background-color: #ededed;
+        background-color: #B4B4B4;
         height: 56em;
     }
 
     #video {
-        background-color: #c7c7c7;
+        background-color: #767676;
         height: 49rem;
     }
 
     #redesign {
-        background-color: #dcdcdc;
+        background-color: #BFBFBF;
         height: 58rem;
     }
 
     #lost {
-        background-color: #bcbcbc;
+        background-color: #767070;
         height: 57rem;
     }
 
@@ -462,36 +462,36 @@ header {
     }
 
     #video .overlay {
-        background-color: #3a80af;
+        background-color: #83AEE4;
         margin-top: 2rem;
         height: 17rem;
     }
 
     #redesign .overlay {
-        background-color: #626161;
+        background-color: #97B782;
         margin-top: 2rem;
         height: 24rem;
     }
 
     #lost .overlay {
-        background-color: #2d877d;
+        background-color: #413A62;
         margin-top: 2rem;
         height: 21rem;
     }
 
     #sexogsamfund .overlay {
-        background-color: #d7721b;
+        background-color: #EEB690;
         margin-top: 2rem;
         height: 25.3rem;
     }
 
     #prototype .overlay {
-        background-color: #4e4150;
+        background-color: #384F42;
         margin-top: 2rem;
         height: 35rem;
     }
 
-    /***portfolie overlay tablet**/
+    /*********** PORTFOLIE OVERLAY TABLET**************/
 
     .column_big img {
         padding-top: 5rem;
@@ -545,14 +545,14 @@ header {
     }
 
 
-    #postmodernisme .overlay {
+    #swisssdesign .overlay {
         background-color: #e391b1;
         height: 20rem;
         top: -3rem;
     }
 
     #video .overlay {
-        background-color: #3a80af;
+        background-color: #83AEE4;
         height: 19rem;
         top: -2rem;
     }
@@ -562,25 +562,26 @@ header {
     }
 
     #redesign .overlay {
-        background-color: #626161;
+        background-color: #97B782;
         height: 20rem;
         top: -3rem;
     }
 
-    #bibliotekaren .overlay {
-        background-color: #2d877d;
+    #lost .overlay {
+        background-color: #413A62;
         height: 21rem;
         top: -3rem;
     }
 
     #sexogsamfund .overlay {
-        background-color: #d7721b;
+        background-color: #EEB690;
+        ;
         height: 20rem;
         top: -3rem;
     }
 
     #prototype .overlay {
-        background-color: #4e4150;
+        background-color: #384F42;
         height: 27rem;
         top: -3rem;
     }
@@ -589,245 +590,208 @@ header {
         margin-top: 4.8rem;
     }
 
-}
 
 
-/*********PORTFOLIE desctop**************/
+    /*********PORTFOLIE desctop**************/
 
-@media only screen and (min-width: 800px) {
+    @media only screen and (min-width: 800px) {
 
-    #portfolie p {
-        font-size: 1.1rem;
-    }
+        #portfolie p {
+            font-size: 1.1rem;
+        }
 
-    #video,
-    #postmodernisme,
-    #redesign,
-    #bibliotekaren,
-    #sexogsamfund,
-    #prototype {
-        padding: 3rem;
+        #video,
+        #swissstyle,
+        #redesign,
+        #lost,
+        #sexogsamfund,
+        #prototype {
+            padding: 3rem;
 
-    }
+        }
 
-    #postmodernisme {
-        padding-top: 4rem;
-        height: 35rem;
-    }
+        #swissstyle {
+            padding-top: 4rem;
+            height: 35rem;
+        }
 
-    .column_big {
-        padding-top: 1rem;
-    }
+        .column_big {
+            padding-top: 1rem;
+        }
 
-    #portfolie .resultat_knap,
-    #prototype .resultat_knap_2,
-    #prototype .resultat_knap_3,
-    #portfolie .dokumentation_knap {
-        margin: 0;
-        margin-top: 1rem;
-    }
-
-
-    #portfolie .column_small_1 {
-        flex-grow: 0;
-        margin-bottom: 2.5rem;
-    }
-
-    #prototype .column_big img {
-        padding-top: 4rem;
-        padding-left: 4rem;
-    }
-
-    #video,
-    #bibliotekaren,
-    #sexogsamfund {
-        height: 36rem;
-    }
-
-    #redesign {
-        height: 34rem;
-    }
-
-    #prototype {
-        height: 40rem;
-    }
+        #portfolie .resultat_knap,
+        #prototype .resultat_knap_2,
+        #prototype .resultat_knap_3,
+        #portfolie .dokumentation_knap {
+            margin: 0;
+            margin-top: 1rem;
+        }
 
 
-    #portfolie .column_small {
-        padding-top: 2rem;
-    }
+        #portfolie .column_small_1 {
+            flex-grow: 0;
+            margin-bottom: 2.5rem;
+        }
+
+        #prototype .column_big img {
+            padding-top: 4rem;
+            padding-left: 4rem;
+        }
+
+        #video,
+        #lost,
+        #sexogsamfund {
+            height: 36rem;
+        }
+
+        #redesign {
+            height: 34rem;
+        }
+
+        #prototype {
+            height: 40rem;
+        }
 
 
-    /***portfolie overlay desctop**/
-
-    .column_big img {
-        padding-top: 1rem;
-        padding-left: 2rem;
-    }
-
-    #prototype .column_big img {
-        padding-top: 3rem;
-    }
+        #portfolie .column_small {
+            padding-top: 2rem;
+        }
 
 
-    #portfolie .column_big {
-        position: relative;
-    }
+        /***portfolie overlay desctop**/
 
-    #portfolie .image {
-        display: block;
-        width: 100%;
-        height: auto;
-    }
+        .column_big img {
+            padding-top: 1rem;
+            padding-left: 2rem;
+        }
 
-    .overlay {
-        position: absolute;
-        bottom: 0;
-        left: 0;
-        right: 0;
-        height: 100%;
-        width: 100%;
-        opacity: 0;
-        transition: .5s ease;
-    }
-
-    .text_overlay {
-        color: white;
-        font-size: 30px;
-        position: absolute;
-        top: 9rem;
-        left: 22rem;
-        -webkit-transform: translate(-50%, -50%);
-        -ms-transform: translate(-50%, -50%);
-        transform: translate(-50%, -50%);
-        text-align: left;
-        line-height: 4rem;
-        border: none;
-        width: 100%;
-        margin: 1rem 0.5rem 1rem 0.5rem;
-    }
-
-    .column_big:hover .overlay {
-        opacity: 1;
-    }
+        #prototype .column_big img {
+            padding-top: 3rem;
+        }
 
 
-    #swissstyle .overlay {
-        background-color: #e391b1;
-        height: 24rem;
-        top: 0rem;
-    }
+        #portfolie .column_big {
+            position: relative;
+        }
 
-    #swissstyle .text_overlay {
-        margin-top: 2.5rem;
-    }
+        #portfolie .image {
+            display: block;
+            width: 100%;
+            height: auto;
+        }
+
+        .overlay {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            height: 100%;
+            width: 100%;
+            opacity: 0;
+            transition: .5s ease;
+        }
+
+        .text_overlay {
+            color: white;
+            font-size: 30px;
+            position: absolute;
+            top: 9rem;
+            left: 22rem;
+            -webkit-transform: translate(-50%, -50%);
+            -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+            text-align: left;
+            line-height: 4rem;
+            border: none;
+            width: 100%;
+            margin: 1rem 0.5rem 1rem 0.5rem;
+        }
+
+        .column_big:hover .overlay {
+            opacity: 1;
+        }
 
 
-    #video .overlay {
-        background-color: #3a80af;
-        height: 25rem;
-        top: 0rem;
-    }
+        #swissstyle .overlay {
+            background-color: #e391b1;
+            height: 24rem;
+            top: 0rem;
+        }
 
-    #video .text_overlay {
-        margin-top: 2.5rem;
-    }
+        #swissstyle .text_overlay {
+            margin-top: 2.5rem;
+        }
 
-    #redesign .overlay {
-        background-color: #626161;
-        height: 25rem;
-        top: 0rem;
-    }
 
-    #redesign .text_overlay {
-        margin-top: 2.5rem;
-    }
+        #video .overlay {
+            background-color: #83AEE4;
+            height: 25rem;
+            top: 0rem;
+        }
 
-    #lost .overlay {
-        background-color: #2d877d;
-        height: 25rem;
-        top: 0rem;
-    }
+        #video .text_overlay {
+            margin-top: 2.5rem;
+        }
 
-    #lost .text_overlay {
-        margin-top: 2.5rem;
-    }
+        #redesign .overlay {
+            background-color: #97B782;
+            height: 25rem;
+            top: 0rem;
+        }
 
-    #sexogsamfund .overlay {
-        background-color: #d7721b;
-        height: 25rem;
-        top: 0rem;
-    }
+        #redesign .text_overlay {
+            margin-top: 2.5rem;
+        }
 
-    #sexogsamfund .text_overlay {
-        margin-top: 2.5rem;
-    }
+        #lost .overlay {
+            background-color: #413A62;
+            height: 25rem;
+            top: 0rem;
+        }
 
-    #prototype .overlay {
-        background-color: #4e4150;
-        height: 27rem;
-        top: 0rem;
-    }
+        #lost .text_overlay {
+            margin-top: 2.5rem;
+        }
 
-    #prototype .text_overlay {
-        margin-top: 4.5rem;
-    }
+        #sexogsamfund .overlay {
+            background-color: #EEB690;
+            height: 25rem;
+            top: 0rem;
+        }
 
-    *********KONTAKT SIDEN **************/ #kontakt {
-        display: flex;
-        flex-wrap: wrap;
-        flex-direction: column;
-        align-items: center;
-        padding-top: 4rem;
-    }
+        #sexogsamfund .text_overlay {
+            margin-top: 2.5rem;
+        }
 
-    .image {
-        width: 100%;
-        margin: 0;
-    }
+        #prototype .overlay {
+            background-color: #384F42;
+            height: 27rem;
+            top: 0rem;
+        }
 
-    #kontakt .row {
-        flex-direction: column;
-        flex-wrap: wrap;
-        display: flex;
-        align-items: center;
-    }
+        #prototype .text_overlay {
+            margin-top: 4.5rem;
+        }
 
-    #kontakt .column1,
-    .column3,
-    .column5 {
-        flex-grow: 1;
-        flex-basis: 50px;
-        padding-top: 2rem;
-    }
-
-    #kontakt .column2,
-    .column4,
-    .column6 {
-        flex-grow: 1;
-        flex-basis: 50px;
-        padding-bottom: 1.2rem;
-    }
-
-    #kontakt img {
-        width: 5rem;
-    }
-
-    /**kontakt desctop**/
-
-    @media only screen and (min-width: 500px) {
+        /*********KONTAKT SIDEN **************/
         #kontakt {
-            padding-top: 8rem;
-            padding-bottom: 5rem;
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: column;
+            align-items: center;
+            padding-top: 4rem;
+        }
+
+        .image {
+            width: 100%;
+            margin: 0;
         }
 
         #kontakt .row {
-            flex-direction: row;
-            flex-basis: 150px;
-            justify-content: center;
+            flex-direction: column;
+            flex-wrap: wrap;
+            display: flex;
             align-items: center;
-            width: 400px;
-            margin-left: 6rem;
         }
 
         #kontakt .column1,
@@ -835,119 +799,156 @@ header {
         .column5 {
             flex-grow: 1;
             flex-basis: 50px;
-            padding: 0rem;
-            padding-top: 0rem;
+            padding-top: 2rem;
         }
 
         #kontakt .column2,
         .column4,
         .column6 {
-            flex-grow: 2;
+            flex-grow: 1;
             flex-basis: 50px;
-            padding: 0rem;
-        }
-    }
-
-    /***********OM SIDEN********/
-
-    #om {
-        display: flex;
-        flex-wrap: wrap;
-        flex-direction: column;
-        align-items: center;
-        background-color: rgb(227, 227, 227);
-    }
-
-    #om .row,
-    .row_reverse {
-        display: flex;
-        flex-wrap: wrap;
-        flex-direction: row;
-    }
-
-
-    #om .column1,
-    .column1_top {
-        flex-grow: 1;
-        flex-basis: 300px;
-    }
-
-
-    #om .column2,
-    .column2_top {
-        flex-grow: 1;
-        flex-basis: 300px;
-        background-color: rgb(227, 227, 227);
-        padding: 1.5rem;
-    }
-
-
-    #om .column2 {
-        height: 25rem;
-    }
-
-    /****OM TABLET***/
-
-    @media only screen and (min-width: 600px) {
-
-        #om .column2 {
-            height: 19rem;
+            padding-bottom: 1.2rem;
         }
 
-        #om .column1_top {
-            margin-top: 3rem;
+        #kontakt img {
+            width: 5rem;
         }
 
-        #om .column2_top {
-            padding-top: 3rem;
+        /**kontakt desctop**/
+
+        @media only screen and (min-width: 500px) {
+            #kontakt {
+                padding-top: 8rem;
+                padding-bottom: 5rem;
+            }
+
+            #kontakt .row {
+                flex-direction: row;
+                flex-basis: 150px;
+                justify-content: center;
+                align-items: center;
+                width: 400px;
+                margin-left: 6rem;
+            }
+
+            #kontakt .column1,
+            .column3,
+            .column5 {
+                flex-grow: 1;
+                flex-basis: 50px;
+                padding: 0rem;
+                padding-top: 0rem;
+            }
+
+            #kontakt .column2,
+            .column4,
+            .column6 {
+                flex-grow: 2;
+                flex-basis: 50px;
+                padding: 0rem;
+            }
         }
 
-        #om p {
-            font-size: 0.8rem;
-        }
+        /***********OM SIDEN********/
 
-    }
-
-    @media only screen and (min-width: 700px) {
-
-        #om .column2 {
-            height: 24rem;
-        }
-
-        #om .column1_top {
-            margin-top: 3rem;
-        }
-
-        #om .column2_top {
-            padding-top: 3rem;
-        }
-
-        #om p {
-            font-size: 1.1rem;
-        }
-
-    }
-
-    /****OM DESKTOP***/
-
-    @media only screen and (min-width: 755px) {
-        #om .column2_top {
-            padding-top: 5rem;
-        }
-
-        #om p {
-            font-size: 1.1rem;
-            line-height: 1.4;
-        }
-
-    }
-
-    /*OM mobil reverse funktionen*/
-    @media only screen and (max-width: 600px) {
-        #om .row_reverse {
+        #om {
             display: flex;
-            flex-wrap: wrap-reverse;
+            flex-wrap: wrap;
+            flex-direction: column;
+            align-items: center;
+            background-color: rgb(227, 227, 227);
+        }
+
+        #om .row,
+        .row_reverse {
+            display: flex;
+            flex-wrap: wrap;
             flex-direction: row;
         }
 
-    }
+
+        #om .column1,
+        .column1_top {
+            flex-grow: 1;
+            flex-basis: 300px;
+        }
+
+
+        #om .column2,
+        .column2_top {
+            flex-grow: 1;
+            flex-basis: 300px;
+            background-color: rgb(227, 227, 227);
+            padding: 1.5rem;
+        }
+
+
+        #om .column2 {
+            height: 25rem;
+        }
+
+        /****OM TABLET***/
+
+        @media only screen and (min-width: 600px) {
+
+            #om .column2 {
+                height: 19rem;
+            }
+
+            #om .column1_top {
+                margin-top: 3rem;
+            }
+
+            #om .column2_top {
+                padding-top: 3rem;
+            }
+
+            #om p {
+                font-size: 0.8rem;
+            }
+
+        }
+
+        @media only screen and (min-width: 700px) {
+
+            #om .column2 {
+                height: 24rem;
+            }
+
+            #om .column1_top {
+                margin-top: 3rem;
+            }
+
+            #om .column2_top {
+                padding-top: 3rem;
+            }
+
+            #om p {
+                font-size: 1.1rem;
+            }
+
+        }
+
+        /****OM DESKTOP***/
+
+        @media only screen and (min-width: 755px) {
+            #om .column2_top {
+                padding-top: 5rem;
+            }
+
+            #om p {
+                font-size: 1.1rem;
+                line-height: 1.4;
+            }
+
+        }
+
+        /*OM mobil reverse funktionen*/
+        @media only screen and (max-width: 600px) {
+            #om .row_reverse {
+                display: flex;
+                flex-wrap: wrap-reverse;
+                flex-direction: row;
+            }
+
+        }
