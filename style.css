@@ -36,13 +36,14 @@ h1 {
     line-height: 1.9rem;
     font-size: 1.7rem;
     text-transform: uppercase;
-
+    color: white;
 }
 
 h2 {
     font-family: 'Nunito Sans', sans-serif;
     font-size: 1.2rem;
     text-transform: uppercase;
+    color: white;
 
 }
 
@@ -50,12 +51,14 @@ h3 {
     font-family: 'Montserrat', sans-serif;
     text-transform: uppercase;
     font-size: 0.8rem;
+    color: white;
 }
 
 p {
     font-family: 'Montserrat', sans-serif;
     font-size: 1rem;
     line-height: 1.5rem;
+    color: white;
 }
 
 a {
@@ -216,7 +219,7 @@ header {
     header a {
         line-height: 1.2rem;
         font-size: 22px;
-        color: black;
+        color: white;
     }
 
     header img {
@@ -274,12 +277,7 @@ header {
         flex-basis: 120px;
         width: 100%;
         position: relative;
-    }
-
-    #video .column_small_2 {
-        flex-basis: 70px;
-        position: relative;
-        padding-top: 0.5rem;
+        left: 3rem;
     }
 
     #prototype .column_small_2 {
@@ -307,41 +305,41 @@ header {
         height: 3rem;
         border-radius: 0.8rem;
         text-align: center;
-        margin: auto;
+        margin-top: 5rem;
         padding: 0.6rem;
     }
 
     #swissstyle .resultat_knap {
-        background-color: #F86868;
+        outline: 3px white solid;
     }
 
     #video .resultat_knap {
-        background-color: #83AEE4;
+        outline: 3px white solid;
     }
 
     #redesign .resultat_knap {
-        background-color: #97B782;
+        outline: 3px white solid;
     }
 
     #lost .resultat_knap {
-        background-color: #413A62;
+        outline: 3px white solid;
     }
 
     #sexogsamfund .resultat_knap {
-        background-color: #EEB690;
+        outline: 3px white solid;
     }
 
     #prototype .resultat_knap {
-        background-color: #A88479;
+        outline: 3px white solid;
     }
 
     #prototype .resultat_knap_2 {
-        background-color: #918E7D;
+        outline: 3px white solid;
         margin-top: 1rem;
     }
 
     #prototype .resultat_knap_3 {
-        background-color: #384F42;
+        outline: 3px white solid;
         margin-top: 1rem;
     }
 
@@ -357,11 +355,11 @@ header {
     }
 
     .dokumentation_knap {
-        background-color: #626161;
+        outline: 3px white solid;
     }
 
 
-    /**** BAGGRUNDSFLADERNE e**/
+    /**** BAGGRUNDSFLADERNE **/
 
     .opgaver {
         width: 100%;
@@ -374,32 +372,38 @@ header {
     }
 
     #swissstyle {
-        background-color: white;
-        height: 56em;
+        background-color: black;
+        outline: white 1px solid;
+        height: 60rem;
     }
 
     #video {
-        background-color: #767676;
+        background-color: black;
+        outline: white 1px solid;
         height: 49rem;
     }
 
     #redesign {
-        background-color: #BFBFBF;
+        background-color: black;
+        outline: white 1px solid;
         height: 58rem;
     }
 
     #lost {
-        background-color: #767070;
+        background-color: black;
+        outline: white 1px solid;
         height: 57rem;
     }
 
     #sexogsamfund {
-        background-color: #959595;
+        background-color: black;
+        outline: white 1px solid;
         height: 61rem;
     }
 
     #prototype {
-        background-color: #b9b9b9;
+        background-color: black;
+        outline: white 1px solid;
         height: 82rem;
     }
 
@@ -408,7 +412,7 @@ header {
     .overlay {
         height: 50%;
         width: 100%;
-        opacity: 1;
+        opacity: 3;
     }
 
     .text_overlay {
@@ -422,6 +426,7 @@ header {
     }
 
     #swissstyle .overlay {
+        background: black;
         margin-top: 2rem;
         height: 22rem;
     }
@@ -508,10 +513,11 @@ header {
         #portfolie .overlay {
             position: absolute;
             bottom: 0;
-            left: 0;
+            left: 200;
             right: 0;
+            margin-top: 80;
             height: 100%;
-            width: 100%;
+            width: 50%;
             opacity: 0;
             transition: .5s ease;
         }
@@ -543,7 +549,7 @@ header {
         }
 
         #video .overlay {
-            background-color: #83AEE4;
+            background-color: black;
             height: 19rem;
             top: -2rem;
         }
@@ -553,27 +559,27 @@ header {
         }
 
         #redesign .overlay {
-            background-color: #97B782;
+            background-color: black;
             height: 20rem;
             top: -3rem;
         }
 
         #lost .overlay {
-            background-color: #413A62;
-            height: 21rem;
+            background-color: black;
+            height: 20rem;
             top: -3rem;
         }
 
         #sexogsamfund .overlay {
-            background-color: #EEB690;
+            background-color: black;
             ;
             height: 20rem;
             top: -3rem;
         }
 
         #prototype .overlay {
-            background-color: #384F42;
-            height: 27rem;
+            background-color: black;
+            height: 20rem;
             top: -3rem;
         }
 
@@ -677,7 +683,7 @@ header {
                 left: 0;
                 right: 0;
                 height: 100%;
-                width: 100%;
+                width: 50%;
                 opacity: 0;
                 transition: .5s ease;
             }
@@ -704,7 +710,7 @@ header {
 
 
             #swissstyle .overlay {
-                height: 24rem;
+                height: 20rem;
                 top: 0rem;
             }
 
@@ -715,8 +721,8 @@ header {
 
 
             #video .overlay {
-                background-color: #83AEE4;
-                height: 25rem;
+                background-color: black;
+                height: 20rem;
                 top: 0rem;
             }
 
@@ -725,8 +731,8 @@ header {
             }
 
             #redesign .overlay {
-                background-color: #97B782;
-                height: 25rem;
+                background-color: black;
+                height: 20rem;
                 top: 0rem;
             }
 
@@ -735,8 +741,8 @@ header {
             }
 
             #lost .overlay {
-                background-color: #413A62;
-                height: 25rem;
+                background-color: black;
+                height: 20rem;
                 top: 0rem;
             }
 
@@ -745,8 +751,8 @@ header {
             }
 
             #sexogsamfund .overlay {
-                background-color: #EEB690;
-                height: 25rem;
+                background-color: black;
+                height: 20rem;
                 top: 0rem;
             }
 
@@ -755,8 +761,8 @@ header {
             }
 
             #prototype .overlay {
-                background-color: #384F42;
-                height: 27rem;
+                background-color: black;
+                height: 20rem;
                 top: 0rem;
             }
 
