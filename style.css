@@ -77,12 +77,8 @@ a {
 #menuknap {
     position: relative;
     display: inline-block;
-    width: 3rem;
-    font-size: 3rem;
-    font-family: 'Montserrat', sans-serif;
-    color: black;
-    margin-top: 0.5rem;
-    margin-left: 1rem;
+    margin-right: 0.5rem;
+    color: white;
 }
 
 #menu {
@@ -119,13 +115,14 @@ header img {
 
 .mobilenav {
     width: 100%;
-    background-color: white;
     display: flex;
     flex-wrap: nowrap;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    height: 4.5rem;
+    height: 2rem;
+    left:
+        background-color: black;
 }
 
 header {
@@ -151,37 +148,6 @@ header {
 @media only screen and (min-width: 945px) {
     .mobilenav {
         display: none;
-    }
-
-    .dropdowndesktop {
-        float: left;
-        overflow: hidden;
-    }
-
-
-    .dropdown-contentdesktop {
-        display: none;
-        position: absolute;
-        background-color: darkgray;
-        min-width: 140px;
-        box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-        z-index: 1;
-    }
-
-    .dropdown-contentdesktop a {
-        padding: 7px 10px;
-        font-weight: 400;
-        display: block;
-        text-align: left;
-        color: white;
-    }
-
-    .dropdown-contentdesktop a:hover {
-        background-color: lightgrey;
-    }
-
-    .dropdowndesktop:hover .dropdown-contentdesktop {
-        display: block;
     }
 
     header {
@@ -366,7 +332,7 @@ header {
     .opgaver {
         width: 100%;
         padding: 1rem;
-        padding-top: 3rem;
+        padding-top: 5rem;
 
         display: flex;
         flex-wrap: wrap;
@@ -409,7 +375,7 @@ header {
         height: 82rem;
     }
 
-    /**** OVERLAY/TEKSTBEKSRIVELSER *****/
+    /**** OVERLAY*****/
 
     .overlay {
         height: 50%;
@@ -417,15 +383,6 @@ header {
         opacity: 3;
     }
 
-    .text_overlay {
-        color: white;
-        font-size: 9px;
-        text-align: left;
-        line-height: 2rem;
-        border: none;
-        width: 100%;
-        padding: 0.5rem 1.2rem 0.5rem 1.2rem;
-    }
 
     #swissstyle .overlay {
         margin-top: 2rem;
