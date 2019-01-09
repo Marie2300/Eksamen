@@ -44,7 +44,6 @@ h2 {
     font-size: 1.2rem;
     text-transform: uppercase;
     color: white;
-
 }
 
 h3 {
@@ -232,13 +231,14 @@ header {
         display: flex;
     }
 
-    /*************PORFOLIE*****************/
+    /*************PORTFOLIE*****************/
 
     #portfolie {
         display: flex;
         flex-wrap: wrap;
         flex-direction: column;
         padding-top: 2.5rem;
+        background-color: black;
     }
 
     #portfolie h1 {
@@ -251,6 +251,7 @@ header {
     }
 
     #portfolie .column_small {
+        background-color: black;
         display: flex;
         flex-wrap: wrap;
         flex-direction: column;
@@ -261,6 +262,7 @@ header {
 
 
     #portfolie .column_small_1 {
+        background-color: black;
         display: flex;
         flex-wrap: wrap;
         flex-direction: column;
@@ -426,37 +428,37 @@ header {
     }
 
     #swissstyle .overlay {
-        background: black;
         margin-top: 2rem;
         height: 22rem;
+        background: rgba(0, 0, 0, 0.9);
     }
 
     #video .overlay {
-        background-color: #83AEE4;
+        background: rgba(0, 0, 0, 0.9);
         margin-top: 2rem;
         height: 17rem;
     }
 
     #redesign .overlay {
-        background-color: #97B782;
+        background: rgba(0, 0, 0, 0.9);
         margin-top: 2rem;
         height: 24rem;
     }
 
     #lost .overlay {
-        background-color: #413A62;
+        background: rgba(0, 0, 0, 0.9);
         margin-top: 2rem;
         height: 21rem;
     }
 
     #sexogsamfund .overlay {
-        background-color: #EEB690;
+        background: rgba(0, 0, 0, 0.9);
         margin-top: 2rem;
         height: 25.3rem;
     }
 
     #prototype .overlay {
-        background-color: #384F42;
+        background: rgba(0, 0, 0, 0.9);
         margin-top: 2rem;
         height: 35rem;
     }
@@ -464,6 +466,8 @@ header {
     /*********PORTFOLIE TABLET***********/
 
     @media only screen and (min-width: 520px) {
+
+
 
         #sexogsamfund,
         #video {
@@ -515,77 +519,55 @@ header {
             bottom: 0;
             left: 200;
             right: 0;
-            margin-top: 80;
             height: 100%;
             width: 50%;
             opacity: 0;
             transition: .5s ease;
         }
 
-        .text_overlay {
-            color: white;
-            font-size: 20px;
-            position: absolute;
-            top: 9rem;
-            left: 13rem;
-            -webkit-transform: translate(-50%, -50%);
-            -ms-transform: translate(-50%, -50%);
-            transform: translate(-50%, -50%);
-            text-align: left;
-            line-height: 2rem;
-            border: none;
-            width: 100%;
-            margin: 1rem 0.5rem 1rem 0.5rem;
-        }
 
         #portfolie .column_big:hover .overlay {
             opacity: 1;
         }
 
 
-        #swisssdesign .overlay {
+        #swissstyle .overlay {
+            background: rgba(0, 0, 0, 0.9);
             height: 20rem;
             top: -3rem;
         }
 
         #video .overlay {
-            background-color: black;
+            background: rgba(0, 0, 0, 0.9);
             height: 19rem;
             top: -2rem;
-        }
 
-        #video .text_overlay {
-            margin-top: 0rem;
         }
 
         #redesign .overlay {
-            background-color: black;
+            background: rgba(0, 0, 0, 0.9);
             height: 20rem;
             top: -3rem;
         }
 
         #lost .overlay {
-            background-color: black;
+            background: rgba(0, 0, 0, 0.9);
             height: 20rem;
             top: -3rem;
         }
 
         #sexogsamfund .overlay {
-            background-color: black;
-            ;
+            background: rgba(0, 0, 0, 0.9);
             height: 20rem;
             top: -3rem;
         }
 
         #prototype .overlay {
-            background-color: black;
+            background: rgba(0, 0, 0, 0.9);
             height: 20rem;
             top: -3rem;
         }
 
-        #prototype .text_overlay {
-            margin-top: 4.8rem;
-        }
 
 
 
@@ -626,6 +608,7 @@ header {
 
 
             #portfolie .column_small_1 {
+                background-color: black;
                 flex-grow: 0;
                 margin-bottom: 2.5rem;
             }
@@ -688,21 +671,6 @@ header {
                 transition: .5s ease;
             }
 
-            .text_overlay {
-                color: white;
-                font-size: 30px;
-                position: absolute;
-                top: 9rem;
-                left: 22rem;
-                -webkit-transform: translate(-50%, -50%);
-                -ms-transform: translate(-50%, -50%);
-                transform: translate(-50%, -50%);
-                text-align: left;
-                line-height: 4rem;
-                border: none;
-                width: 100%;
-                margin: 1rem 0.5rem 1rem 0.5rem;
-            }
 
             .column_big:hover .overlay {
                 opacity: 1;
@@ -710,6 +678,7 @@ header {
 
 
             #swissstyle .overlay {
+                background: rgba(0, 0, 0, 0.9);
                 height: 20rem;
                 top: 0rem;
             }
@@ -721,54 +690,37 @@ header {
 
 
             #video .overlay {
-                background-color: black;
+                background: rgba(0, 0, 0, 0.9);
                 height: 20rem;
                 top: 0rem;
             }
 
-            #video .text_overlay {
-                margin-top: 2.5rem;
-            }
 
             #redesign .overlay {
-                background-color: black;
+                background: rgba(0, 0, 0, 0.9);
                 height: 20rem;
                 top: 0rem;
-            }
-
-            #redesign .text_overlay {
-                margin-top: 2.5rem;
             }
 
             #lost .overlay {
-                background-color: black;
+                background: rgba(0, 0, 0, 0.9);
                 height: 20rem;
                 top: 0rem;
             }
 
-            #lost .text_overlay {
-                margin-top: 2.5rem;
-            }
 
             #sexogsamfund .overlay {
-                background-color: black;
+                background: rgba(0, 0, 0, 0.9);
                 height: 20rem;
                 top: 0rem;
-            }
-
-            #sexogsamfund .text_overlay {
-                margin-top: 2.5rem;
             }
 
             #prototype .overlay {
-                background-color: black;
+                background: rgba(0, 0, 0, 0.9);
                 height: 20rem;
                 top: 0rem;
             }
 
-            #prototype .text_overlay {
-                margin-top: 4.5rem;
-            }
 
             /*********KONTAKT SIDEN **************/
             #kontakt {
@@ -902,26 +854,37 @@ header {
 
                 #om p {
                     font-size: 0.8rem;
+                    color: black;
                 }
+
 
             }
 
             @media only screen and (min-width: 700px) {
 
                 #om .column2 {
+                    background-color: black;
                     height: 24rem;
                 }
 
                 #om .column1_top {
+                    background-color: black;
                     margin-top: 3rem;
                 }
 
                 #om .column2_top {
+                    background-color: black;
                     padding-top: 3rem;
                 }
 
                 #om p {
                     font-size: 1.1rem;
+                    color: white;
+                }
+
+                #om .resultat_knap {
+                    background-color: black;
+                    outline: white solid 2px;
                 }
 
             }
@@ -930,12 +893,19 @@ header {
 
             @media only screen and (min-width: 755px) {
                 #om .column2_top {
+                    background-color: black;
                     padding-top: 5rem;
                 }
 
                 #om p {
                     font-size: 1.1rem;
                     line-height: 1.4;
+                    color: white;
+                }
+
+                #om .resultat_knap {
+                    background-color: black;
+                    outline: white solid 2px;
                 }
 
             }
